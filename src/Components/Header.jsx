@@ -4,8 +4,11 @@ import { Link } from "react-router-dom";
 import { FaYoutube } from "react-icons/fa";
 const Header = () => {
   return (
-    <div className="flex items-center justify-between bg-gray-300 rounded-md p-2">
-      <img src={logo} className="h-[80px] cursor-pointer hover:" />
+    <div className="mb-2 md:min-[1200px]: bg-gray-300 flex items-center justify-between rounded-md p-2">
+      <img
+        src={logo}
+        className="h-[30px] sm:h-[40px] md:h-[50px] l:h-[60px] xl:h-[70px] md cursor-pointer "
+      />
 
       <ul className="flex gap-4 text-center md:gap-14">
         <li className="cursor-pointer hover:font-bold">Home</li>

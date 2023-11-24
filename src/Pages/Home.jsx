@@ -7,7 +7,7 @@ import Footer from "../Components/Footer";
 
 const Home = () => {
   return (
-    <div>
+    <div className="flex flex-col gap-4 justify-center">
       <Header />
       <Search />
       <IntroPost />
